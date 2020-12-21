@@ -1,0 +1,59 @@
+.body {
+    background-color:#555;
+}
+.navbar-fixed {
+    position: absolute;z-index:999999999;
+}
+
+@font-face{
+    font-family: 'Dayblack';
+    src: url('dayblack.ttf') format('truetype');
+}
+
+
+.slider h3,
+.slider h5,
+.clients h3 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.title{
+    font-weight: bold;
+}
+.parallax-container {
+    height: 700px;
+}
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0,2 !important;
+    height: 700px;
+}
+.slider img{
+    filter: grayscale(1);
+    opacity: 1 !important;
+}
+
+.clients img {
+    max-width: 700px;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+section, footer {
+    padding: 20px 0;
+    
+}
+
+.nav-wrapper h5{
+    padding-left: 50px;   
+}
+.nav-wrapper a{
+    padding-right: 30px;
+}
+.card-action a{
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.footer p{
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
