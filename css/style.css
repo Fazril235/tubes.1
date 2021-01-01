@@ -20,6 +20,7 @@
 .title{
     font-weight: bold;
 }
+
 .parallax-container {
     height: 700px;
 }
@@ -29,6 +30,7 @@
     opacity: 0,2 !important;
     height: 700px;
 }
+
 .slider img{
     filter: grayscale(1);
     opacity: 1 !important;
@@ -43,12 +45,16 @@ section, footer {
     padding: 20px 0;
     
 }
-
-.nav-wrapper h5{
-    padding-left: 50px;   
+.nav-wrapper img{
+    padding-left: 90px;
+    padding-bottom: 50px;
+    height: 170px;
+    width: 185px;
 }
+
 .nav-wrapper a{
     padding-right: 30px;
+    padding-top: 20px;
 }
 .card-action a{
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
